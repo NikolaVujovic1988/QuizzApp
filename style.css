@@ -1,0 +1,22 @@
+body {
+    background-color: #F4ECFF !important;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.questonFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 12px;
+}
+
+.quizCard {
+    width: 30rem;
+}
