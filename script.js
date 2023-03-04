@@ -39,4 +39,4 @@ let questions = [
         "answer_4": "Sunce",
         "right_answer": 2
     }
-];
+]
