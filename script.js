@@ -67,10 +67,15 @@ function answer(selection) {
     console.log('selectedQuestionNumber is', selectedQuestionNumber);
     console.log('current question is', question['right_answer']);
 
+    let idOfRightAnser = `answer_${question['right_answer']}`;
+
     if(selectedQuestionNumber == question['right_answer']) {
-        console.log('Richtige Antwort')
+        console.log('Richtige Antwort');
+        document.getElementById(selection).parentNode.classList.add('bg-success');
     } else {
-        console.log('Falsche Antwort')
+        console.log('Falsche Antwort');
+        document.getElementById(selection).parentNode.classList.add('bg-danger');
+        document.getElementById(idOfRightAnser).parentNode.classList.add('bg-success');
     }
 
 }
