@@ -21,16 +21,29 @@
 
 <body onload="init()">
 
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-            <span class="navbar-brand mb-0 h1">QuizApp</span>
-        </div>
-    </nav>
+    
 
     <div class="container">
-        <div class=" card quizCard">
-            <img src="img/education-g0be033744_1280.jpg" class="card-img-top" alt="quiz foto">
-            <div class="card-body">
+        
+        <div class=" card quizCard endscreenStyle" id="endscreenStyle">
+            <nav id="headerCardFoto" class="navbar" >
+                <img class="imgHeader" src="img/logo 2.png">
+            </nav>
+
+            <div class="card-body endscreen" id="endScreen" style="display: none;">
+                <div>
+                    <img class="endscreenImg" src="img/Group 5.png">
+                </div>
+                <div class="result">
+                    <b class="scoreText">Your Score</b> xxx von xxx!
+                </div>
+                <div class="endscreenBtn">
+                    <button class="btnEnd btn-danger"><b>SHARE</b></button>
+                    <a href="index.html" class="replay"><b>REPLAY</b></a>
+                </div>
+            </div>
+
+            <div class="card-body" id="questionBody">
                 <h5 class="card-title" id="question">Frage</h5>
 
                 <div class="card cardAnswer mb-2" onclick="answer('answer_1')">
@@ -60,7 +73,8 @@
                     <span>
                         <b id="questionNumber">1</b> von <b id="questionsLength">7</b> Fragen
                     </span>
-                    <button onclick="nextQuestion()" class="btn btn-primary" id="nextBtn" disabled>Nächste Frage</button>
+                    <button onclick="nextQuestion()" class="btn btn-primary" id="nextBtn" disabled>Nächste
+                        Frage</button>
                 </div>
 
             </div>
