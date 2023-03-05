@@ -74,5 +74,22 @@ function answer(selection) {
     }
 
     document.getElementById('nextBtn').disabled = false;
+}
 
+function nextQuestion(){
+    currentQuestion++;
+    document.getElementById('nextBtn').disabled = true;
+    resetAnswerBtn();
+    showQuestion();
+}
+
+function resetAnswerBtn(){
+    document.getElementById('answer_1').parentNode.classList.remove('bg-danger');
+    document.getElementById('answer_1').parentNode.classList.remove('bg-success');
+    document.getElementById('answer_2').parentNode.classList.remove('bg-danger');
+    document.getElementById('answer_2').parentNode.classList.remove('bg-success');
+    document.getElementById('answer_3').parentNode.classList.remove('bg-danger');
+    document.getElementById('answer_3').parentNode.classList.remove('bg-success');
+    document.getElementById('answer_4').parentNode.classList.remove('bg-danger');
+    document.getElementById('answer_4').parentNode.classList.remove('bg-success');
 }
