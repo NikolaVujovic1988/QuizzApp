@@ -62,7 +62,10 @@ function showQuestion() {
         document.getElementById('amountOfRightQuestions').innerHTML = rightQuestions;
     } else {
         let question = questions[currentQuestion];
-
+        let percent = (currentQuestion + 1) / questions.length;
+        percent = Math.round(percent * 100);
+        document.getElementById('progressBar').innerHTML = `${percent}%`;
+        document.getElementById('progressBar').style = `width: ${percent}%;`;
         document.getElementById('questionNumber').innerHTML = currentQuestion + 1;
         document.getElementById('question').innerHTML = question['question'];
         document.getElementById('answer_1').innerHTML = question['answer_1'];
