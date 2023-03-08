@@ -43,6 +43,14 @@ body {
 
 }
 
+.result {
+    font-size: 24px;
+}
+
+.noClick {
+    pointer-events: none;
+ }
+
 .endscreenStyle {
     width: 500px;
     height: 500px;

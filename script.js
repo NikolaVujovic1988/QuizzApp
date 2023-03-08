@@ -96,11 +96,13 @@ function answer(selection) {
     }
 
     document.getElementById('nextBtn').disabled = false;
+    document.getElementById('noClick').classList.add('noClick');
 }
 
 function nextQuestion() {
     currentQuestion++;
     document.getElementById('nextBtn').disabled = true;
+    document.getElementById('noClick').classList.remove('noClick');
     resetAnswerBtn();
     showQuestion();
 }
