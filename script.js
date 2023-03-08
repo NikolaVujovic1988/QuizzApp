@@ -1,42 +1,58 @@
 let questions = [
     {
-        "question": "Koji je glavni grad Srbije?",
-        "answer_1": "Kraljevo",
-        "answer_2": "S.Palanka",
-        "answer_3": "Mladenovac",
-        "answer_4": "Beograd",
-        "right_answer": 4
+        "question": "Wie lange dauert ein Tag auf dem Mars?",
+        "answer_1": "24 Stunden",
+        "answer_2": "25 Stunden",
+        "answer_3": "26 Stunden",
+        "answer_4": "27 Stunden",
+        "right_answer": 3
     },
     {
-        "question": "Koja reka protice kroz Srbiju?",
-        "answer_1": "Dunav",
-        "answer_2": "Rajna",
-        "answer_3": "Volga",
-        "answer_4": "Moraca",
-        "right_answer": 1
-    },
-    {
-        "question": "Koji Srbin je izumeo struju?",
-        "answer_1": "J.J. Zmaj",
-        "answer_2": "Nikola Tesla",
-        "answer_3": "Milutin Milankovic",
-        "answer_4": "Ivo Andric",
+        "question": "Welches Tier gilt als das klügste auf der Erde?",
+        "answer_1": "Der Elefant",
+        "answer_2": "Der Delphin",
+        "answer_3": "Der Gorilla",
+        "answer_4": "Der Papagei",
         "right_answer": 2
     },
     {
-        "question": "Ko je najuspesniji srpski Teniser?",
-        "answer_1": "Novak Djokovic",
-        "answer_2": "Janko Tipsarevic",
-        "answer_3": "Viktor Troicki",
-        "answer_4": "Nenad Zimonjic",
+        "question": "Wie heißt das kleinste Land der Welt?",
+        "answer_1": "Andorra",
+        "answer_2": "San Marino",
+        "answer_3": "Monaco",
+        "answer_4": "Vatikanstadt",
+        "right_answer": 4
+    },
+    {
+        "question": "Welches Land hat die längste Küstenlinie?",
+        "answer_1": "Kanada",
+        "answer_2": "Russland",
+        "answer_3": "Australien",
+        "answer_4": "USA",
         "right_answer": 1
     },
     {
-        "question": "Koja Srpska rec se koristi svuda u svetu?",
-        "answer_1": "Kafa",
-        "answer_2": "Vampir",
-        "answer_3": "Rakija",
-        "answer_4": "Sunce",
+        "question": "Was ist die höchste Note im westlichen Musiksystem?",
+        "answer_1": "C",
+        "answer_2": "D",
+        "answer_3": "G",
+        "answer_4": "A",
+        "right_answer": 4
+    },
+    {
+        "question": "Wie viele Augen hat ein Bien?",
+        "answer_1": "2",
+        "answer_2": "4",
+        "answer_3": "6",
+        "answer_4": "8",
+        "right_answer": 3
+    },
+    {
+        "question": "Wie viele Menschen haben bis heute den Mount Everest bestiegen?",
+        "answer_1": "weniger als 500",
+        "answer_2": "weniger als 1000",
+        "answer_3": "weniger als 2000",
+        "answer_4": "weniger als 2500",
         "right_answer": 2
     }
 ];
