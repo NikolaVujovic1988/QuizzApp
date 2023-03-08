@@ -139,5 +139,17 @@ body {
         padding: 0 !important;
     }
 
+    .result {
+        font-size: 24px;
+    }
+
+    .endscreen {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .endscreenImg {
+        width: 100%;
+    }
     }
     
